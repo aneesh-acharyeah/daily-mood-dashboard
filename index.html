@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Mood Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🧭 Daily Mood Dashboard</h1>
+    <p>Track your mood each day with a simple emoji!</p>
+  </header>
+
+  <main>
+    <section class="mood-picker">
+      <label>Select your mood for today:</label>
+      <div class="emoji-options">
+        <button class="emoji">😊</button>
+        <button class="emoji">😐</button>
+        <button class="emoji">😞</button>
+        <button class="emoji">😡</button>
+        <button class="emoji">😴</button>
+      </div>
+    </section>
+
+    <section class="calendar">
+      <h2>Mood History</h2>
+      <div id="calendarGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ using HTML, CSS, and JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
