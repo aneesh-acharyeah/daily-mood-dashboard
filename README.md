@@ -1,4 +1,4 @@
-# 🧭 Daily Mood Dashboard      
+# 🧭 Daily Mood Dashboard         
 
 A minimalist mood tracker that lets you log your daily mood using emojis or colors.  
 Visualize your emotional trends and reflect on your well-being — all in a beautiful, frontend-only app.
